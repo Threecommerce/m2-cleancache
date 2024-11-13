@@ -2,12 +2,12 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
         <add
-            id="Gp_CleanCache::Clean_Cache"
+            id="Threecommerce_CleanCache::Clean_Cache"
             title="Clean Cache"
-            module="Gp_CleanCache"
+            module="Threecommerce_CleanCache"
             sortOrder="-1"
             action="cleancache/clean/cache"
-            resource="Gp_CleanCache::clean_cache"
+            resource="Threecommerce_CleanCache::clean_cache"
         />
     </menu>
 </config>
