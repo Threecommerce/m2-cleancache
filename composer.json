@@ -1,6 +1,6 @@
 {
   "name": "threecommerce/m2-cleancache",
-  "description": "A Magento 2 module for cleancache mode",
+  "description": "A Magento 2 module for cleancache from admin menu",
   "type": "magento2-module",
   "version": "1.0.0",
   "license": [
@@ -28,7 +28,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "Threecommerce\\cleancache\\": ""
+      "Threecommerce\\CleanCache\\": ""
     }
   }
 }
